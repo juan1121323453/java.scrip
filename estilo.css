@@ -1,0 +1,210 @@
+#cabecera{
+    background-color: #eff1f1;
+    PADDING: 10PX;
+    COLOR: #07bbf1;
+}
+#menu{
+    background-color: #0fdae9;
+    padding: 10PX;
+margin-bottom: 10PX;
+}
+a.item_menu{
+    color:white;
+text-decoration:none;
+padding-top:10px;
+padding-bottom:10px;
+padding-left: 5px;
+padding-right: 5px;
+}
+a.item_menu:hover{
+    background-color: #2a8de4;
+}
+#parrafo1{
+    color: brown;
+    font-weight: bold;
+    text-align: right;
+}
+
+#parrafo2{
+    color:green;
+    font-weight: light;
+    text-align: center;
+}
+#parrafo3{
+    color:blue;
+    font-weight: uppercase;
+    text-align: justify;
+}
+.ClaseParrafos{
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer{
+background-color: darkcyan;
+color: white;
+padding: 10px;
+box-shadow: 10px 5px 5px gray;}
+
+#deg1{
+    height: 500px;
+    background-image: linear-gradient(blue,rgb(171, 220, 239));
+}
+
+#deg2{
+    height: 200px;
+    background-image: linear-gradient(blue,white,green);
+}
+
+@font-face {
+    font-family: 'Instagram';
+    src: url('Instagram1.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+#deg3{
+    font-family: Instagram;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    height: 400px;
+    background-image: linear-gradient(to right,#523fcf,#af289d,#e8223c,#f6ba50);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#img1{
+    border: 5px solid red;
+   width: 30%;
+}
+
+#img2{
+    width: 30%;
+    border-radius: 5%;
+    border: 2px solid gray;
+}
+#img3{
+    width: 30%;
+    opacity: 0.5;
+}
+#img3:hover{
+    opacity: 1;
+    width: 32%;
+    
+}
+
+#fondo{
+    background-color: blueviolet;
+    height: 1500px;
+    width: 100%;
+
+    background-image: url("imagen.jpg");
+ /* background-repeat: no-repeat;*/
+    background-size: cover;
+    opacity: 0.3;
+/*background-attachment: fixed;*/
+    z-index: -1;
+    position: absolute;
+}
+
+#transicion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 2s;
+}
+
+#transicion:hover{
+    width: 200px;
+}
+#animacion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: ejemplo1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes ejemplo1 {
+    
+    from{background-color: blue;}
+    to{background-color: red;}
+}
+
+#animacion2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: ejemplo2;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes ejemplo2 {
+    
+
+0%{left: 0px; top: 0px;}
+25%{left: 200px; top: 0px;}
+50%{left: 200px; top: 200px;}
+75%{left: 0px; top: 200px;}
+100%{left: 0px; top: 0px;}
+}
+
+.contenedor {
+    display: flex;
+}
+
+.div_izquierda {
+    width: 50%; /* Ambos divs ocuparán el 50% del ancho del contenedor */
+    height: 400px;
+    background-color: rgba(0, 255, 26, 0.463);
+    margin-right: 10px;
+}
+
+.div_derecha {
+    width: 50%; /* Ambos divs ocuparán el 50% del ancho del contenedor */
+    background-color: aqua;
+}
+.caja_de_texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+    padding:5px;
+    margin-bottom: 5px;
+}
+#boton_borrar{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#boton_enviar{
+    background-color:green ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#boton_enviar:hover{
+    background-color: rgb(3, 174, 3);
+}
+
+#boton_borrar:hover{
+    background-color: rgb(225, 94, 94);
+}
